@@ -18,8 +18,8 @@ var replace = require('gulp-replace');
 
 // File paths
 const files = {
-    scssPath: '/CDA-Projet1/assets/sources/scss/**/*.scss',
-    jsPath: '/CDA-Projet1/assets/sources/js/**/*.js'
+    scssPath: 'assets/sources/scss/**/*.scss',
+    jsPath: 'assets/sources/js/**/*.js'
 }
 
 function scssTask(){
@@ -27,13 +27,13 @@ function scssTask(){
         .pipe(sourcemaps.init()) // initialize sourcemaps first
         .pipe(sass()) // compile SCSS to CSS
         .pipe(cssbeautify())
-        .pipe(dest('/CDA-Projet1/assets/dist/dist/css'))
+        .pipe(dest('assets/dist/css'))
         .pipe(postcss([ autoprefixer(), cssnano() ])) // PostCSS plugins
         .pipe(rename({
             suffix: '.min'
         }))
         .pipe(sourcemaps.write('.')) // write sourcemaps file in current directory
-        .pipe(dest('/CDA-Projet1/assets/dist/css'))
+        .pipe(dest('assets/dist/css'))
 	; // put final CSS in dist folder
 }
 
@@ -41,16 +41,16 @@ function scssTask(){
     return src(files.jsPath)
          .pipe(concat('all.js'))
          .pipe(uglify())
-		.pipe(dest('/CDA-Projet1/assets/dist/js'))
+		.pipe(dest('assets/dist/js'))
   }
 
   gulp.task('js', function() {
     gulp.src([
-            'sources/js/**/*.js'
+            'sources/js/*.js'
         ])
         .pipe(uglify())
         .pipe(concat('all.js'))
-        .pipe(gulp.dest('/CDA-Projet1/assets/dist/js'));
+        .pipe(gulp.dest('assets/dist/js'));
 });
 
 
