@@ -6,6 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link href="/assets/dist/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   	<link rel="icon" href="assets/images/Logo_Orléans_Métropole_blanc.png" />
 	<title>Orléans - Tourisme</title>
 </head>
 <body>
@@ -34,12 +38,11 @@
 		</div>
 	</nav>
 	<header class="d-flex justify-content-center align-items-center flex-column">
-        <video muted autoplay loop class="video d-flex col-12">
-            <source src="Orléans_-terre-de-rencontres-et-d_émotions.webm" type="video/webm">
-            Sorry, your browser doesn't support embedded videos.
-        </video>
+		<img id="tourisme_image"src="assets/images/tourisme-orleans.jpg" alt="Orléans Tourisme">
+		<img id="tourisme_logo" src="assets/images/logo_tourisme.png" alt="Logo Orléans Tourisme">
     </header>
-	<section>
+	<section id="tourisme">
+		<div id="map"></div>
 	</section>
 	<footer>
 		<img src="assets/images/Logo_Orléans_Métropole_allblack.png" alt="logo Orléans Noir">
@@ -66,6 +69,40 @@
 			</li>
 		</ul>
 	</footer>
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+   <script type="text/javascript">
+            // On initialise la latitude et la longitude de Paris (centre de la carte)
+            var lat = 47.88;
+            var lon = 1.909;
+            var macarte = null;
+            // Fonction d'initialisation de la carte
+            function initMap() {
+                // Créer l'objet "macarte" et l'insèrer dans l'élément HTML qui a l'ID "map"
+                macarte = L.map('map').setView([lat, lon], 12.4);
+                // Leaflet ne récupère pas les cartes (tiles) sur un serveur par défaut. Nous devons lui préciser où nous souhaitons les récupérer. Ici, openstreetmap.fr
+                L.tileLayer('https://api.maptiler.com/tiles/satellite/{z}/{x}/{y}.jpg?key=2zb5wlIS9ygdJrM0NouV', {
+                    // Il est toujours bien de laisser le lien vers la source des données
+                    attribution: 'données © <a href="//osm.org/copyright">OpenStreetMap</a>/ODbL - rendu <a href="//openstreetmap.fr">OSM France</a>',
+                    minZoom: 1,
+                    maxZoom: 20
+                }).addTo(macarte);
+				// Nous ajoutons des marqueur
+				var cathedral = L.marker([47.9018, 1.9101 ]).addTo(macarte);
+				cathedral.bindPopup('<a href="https://www.tripadvisor.fr/Attraction_Review-g187129-d532202-Reviews-Cathedrale_Ste_Croix-Orleans_Loiret_Centre_Val_de_Loire.html" target="_blank">Cathédrale Sainte Croix</a>');
+
+				var groslot = L.marker([47.902586, 1.908075]).addTo(macarte);
+				groslot.bindPopup('<a href="https://www.tripadvisor.fr/Attraction_Review-g187129-d230648-Reviews-Hotel_Groslot-Orleans_Loiret_Centre_Val_de_Loire.html" target="_blank">Hôtel Groslot</a>')
+            
+				var groslot = L.marker([47.847807, 1.936780]).addTo(macarte);
+				groslot.bindPopup('<a href="https://www.tripadvisor.fr/Attraction_Review-g187129-d3474784-Reviews-Parc_Floral_de_La_Source-Orleans_Loiret_Centre_Val_de_Loire.html" target="_blank">Parc Floral de La Source</a>')
+			}
+            window.onload = function(){
+		// Fonction d'initialisation qui s'exécute lorsque le DOM est chargé
+		initMap(); 
+            };
+        </script>
 	<script src="https://kit.fontawesome.com/661d52523c.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
