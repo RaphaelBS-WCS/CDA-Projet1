@@ -39,7 +39,14 @@
             Sorry, your browser doesn't support embedded videos.
         </video>
     </header>
-	<section>
+	<section id="">
+		<h2>ORLÉANS: UNE VILLE HISTORIQUE</h2>
+		<hr>
+		<div>
+			<img src="/assets/images/JDarc.jpg" class="col-6">
+			<p class="col-6"></p>
+		</div>
+
 	</section>
 	<footer>
 		<img src="assets/images/Logo_Orléans_Métropole_allblack.png" alt="logo Orléans Noir">
