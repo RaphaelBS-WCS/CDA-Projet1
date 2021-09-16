@@ -27,6 +27,9 @@
 				<a class="nav-link" href="tourisme.php">Tourisme</a>
 			  </li>
 			  <li class="nav-item">
+				<a class="nav-link" href="evenements.php">Evénements</a>
+			  </li>
+			  <li class="nav-item">
 				<a class="nav-link" href="galerie.php">Galerie</a>
 			  </li>
 			</ul>
@@ -40,6 +43,9 @@
         </video>
     </header>
 	<section>
+		<div class="test">
+			test
+		</div>
 	</section>
 	<footer>
 		<img src="assets/images/Logo_Orléans_Métropole_allblack.png" alt="logo Orléans Noir">

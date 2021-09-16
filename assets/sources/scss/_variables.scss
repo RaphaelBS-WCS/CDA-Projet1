@@ -10,8 +10,8 @@ $font_inter: 'Inter',
 sans-serif;
 
 $white: #ffffff;
-$black: #000000;
-$primary: #cace01;
+$dark: #000000;
+$primary: #b5a780;
 $secondary: #454B5B;
 $hover: #F1ECE6;
 $information: #DDDDDD;
@@ -132,3 +132,4 @@ $screen-xl-min: 1200px;
         @content;
     }
 }
+
