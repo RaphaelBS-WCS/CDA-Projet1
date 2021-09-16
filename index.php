@@ -130,7 +130,7 @@ Enfin, ne manquez pas l’Hôtel Groslot, (et sa statue de Jeanne d’Arc), char
 	<section>
 		<div class="container">
 		
-				<div class="events-carousel my-5">
+			<div class="events-carousel my-5">
 				<h2 class="text-center text-uppercase my-5">Événements</h2>
 				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-indicators">
@@ -172,7 +172,7 @@ Enfin, ne manquez pas l’Hôtel Groslot, (et sa statue de Jeanne d’Arc), char
 			</div>
 	</section>
 	<footer>
-		<img src="assets/images/Logo_Orléans_Métropole_allblack.png" alt="logo Orléans Noir">
+		<img src="assets/images/Logo_Orléans_Métropole_blanc.png" alt="logo Orléans Blanc">
 		<ul>
 			<li>
 				<a href="https://fr-fr.facebook.com/OrleansMetropole/" class="me-4 text-reset">
