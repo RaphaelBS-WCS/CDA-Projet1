@@ -83,6 +83,7 @@ footer {
 		align-items: center;
 		
 		li {
+			padding: 20px;
 			list-style-type: none;
 			.fab {
 
@@ -93,6 +94,6 @@ footer {
 		}
 	}
 
-	color: $dark;
+	color: $primary;
 
 }

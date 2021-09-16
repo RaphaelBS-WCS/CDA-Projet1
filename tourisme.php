@@ -16,31 +16,31 @@
 	<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid ">
 		<a class="navbar-brand" href="index.php"><img src="/assets/images/Logo_Orléans_Métropole_blanc.png" alt="logo Orléans blanc"> </a>
-		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-			  <li class="nav-item">
+			<li class="nav-item">
 				<a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
-			  </li>
-			  <li class="nav-item">
+			</li>
+			<li class="nav-item">
 				<a class="nav-link" href="histoire.php">Histoire</a>
-			  </li>
-			  <li class="nav-item">
+			</li>
+			<li class="nav-item">
 				<a class="nav-link" href="tourisme.php">Tourisme</a>
-			  </li>
-			  <li class="nav-item">
+			</li>
+			<li class="nav-item">
 				<a class="nav-link" href="galerie.php">Galerie</a>
-			  </li>
+			</li>
 			</ul>
-		  </div>
+		</div>
 		</div>
 	</nav>
 	<header class="d-flex justify-content-center align-items-center flex-column">
 		<img id="tourisme_image"src="assets/images/tourisme-orleans.jpg" alt="Orléans Tourisme">
 		<img id="tourisme_logo" src="assets/images/logo_tourisme.png" alt="Logo Orléans Tourisme">
-    </header>
+	</header>
 	<section id="tourisme">
 		<p>Utilisez la carte et cliquez sur les icônes sur la carte pour découvrir les lieux à visiter à Orléans!</p>
 		<div id="map"></div>
@@ -71,31 +71,31 @@
 		</ul>
 	</footer>
 	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-   crossorigin=""></script>
-   <script type="text/javascript">
-            // On initialise la latitude et la longitude de Paris (centre de la carte)
-            var lat = 47.88;
-            var lon = 1.909;
-            var macarte = null;
-            // Fonction d'initialisation de la carte
-            function initMap() {
-                // Créer l'objet "macarte" et l'insèrer dans l'élément HTML qui a l'ID "map"
-                macarte = L.map('map', {scrollWheelZoom: false}).setView([lat, lon], 13);
-                // Leaflet ne récupère pas les cartes (tiles) sur un serveur par défaut. Nous devons lui préciser où nous souhaitons les récupérer. Ici, openstreetmap.fr
-                L.tileLayer('https://api.maptiler.com/tiles/satellite/{z}/{x}/{y}.jpg?key=2zb5wlIS9ygdJrM0NouV', {
-                    // Il est toujours bien de laisser le lien vers la source des données
-                    attribution: 'données © <a href="//osm.org/copyright">OpenStreetMap</a>/ODbL - rendu <a href="//openstreetmap.fr">OSM France</a>',
-                    minZoom: 1,
-                    maxZoom: 20
-                }).addTo(macarte);
+	integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+	crossorigin=""></script>
+	<script type="text/javascript">
+			// On initialise la latitude et la longitude de Paris (centre de la carte)
+			var lat = 47.88;
+			var lon = 1.909;
+			var macarte = null;
+			// Fonction d'initialisation de la carte
+			function initMap() {
+				// Créer l'objet "macarte" et l'insèrer dans l'élément HTML qui a l'ID "map"
+				macarte = L.map('map', {scrollWheelZoom: false}).setView([lat, lon], 13);
+				// Leaflet ne récupère pas les cartes (tiles) sur un serveur par défaut. Nous devons lui préciser où nous souhaitons les récupérer. Ici, openstreetmap.fr
+				L.tileLayer('https://api.maptiler.com/tiles/satellite/{z}/{x}/{y}.jpg?key=2zb5wlIS9ygdJrM0NouV', {
+					// Il est toujours bien de laisser le lien vers la source des données
+					attribution: 'données © <a href="//osm.org/copyright">OpenStreetMap</a>/ODbL - rendu <a href="//openstreetmap.fr">OSM France</a>',
+					minZoom: 1,
+					maxZoom: 20
+				}).addTo(macarte);
 				// Nous ajoutons des marqueur
 				var cathedral = L.marker([47.9018, 1.9101 ]).addTo(macarte);
 				cathedral.bindPopup('<a href="https://www.tripadvisor.fr/Attraction_Review-g187129-d532202-Reviews-Cathedrale_Ste_Croix-Orleans_Loiret_Centre_Val_de_Loire.html" target="_blank"><h2>Cathédrale Sainte Croix</h2><br><img src="assets/images/cathedrale.jpg" alt="image lieu"><br>Comptant parmi les 5 plus vastes cathédrales gothiques de France (140m de long, 53m de large avec une flèche culminant à 106m), Sainte-Croix fut commencée en 1287 et officiellement inaugurée le 8 mai 1829. Elle est chargée d\'une longue histoire : Jeanne d\'Arc y pria, Henri IV lança sa reconstruction en 1601, Louis XIV finança les transepts qui lui rendent hommage en affichant sa devise et son soleil.</a>');
 
 				var groslot = L.marker([47.902586, 1.908075]).addTo(macarte);
 				groslot.bindPopup('<a href="https://www.tripadvisor.fr/Attraction_Review-g187129-d230648-Reviews-Hotel_Groslot-Orleans_Loiret_Centre_Val_de_Loire.html" target="_blank"><h2>Hôtel Groslot</h2><br><img src="assets/images/hotel-groslot.jpg" alt="image lieu"><br>Situé près de la Cathédrale Sainte-Croix, l’hôtel Groslot avec sa façade de briques rouges est un magnifique édifice de la Renaissance construit de 1549 à 1558 pour le Bailli de la ville, Jacques Groslot. Les travaux sont confiés à l’architecte Jacques Androuet Ducerceau. Charles IX, Henri III et Henri IV furent des hôtes illustres.</a>')
-            
+			
 				var parcfloral = L.marker([47.847807, 1.936780]).addTo(macarte);
 				parcfloral.bindPopup('<a href="https://www.tripadvisor.fr/Attraction_Review-g187129-d3474784-Reviews-Parc_Floral_de_La_Source-Orleans_Loiret_Centre_Val_de_Loire.html" target="_blank"><h2>Parc Floral de La Source</h2><br><img src="assets/images/parc_floral.jpg" alt="image lieu"><br>Situé à la lisière entre le coteau de Sologne et la plaine du Val de Loire, le parc floral de La Source est composé d’espaces où se mêlent les mondes végétal, minéral et animal : jardin d’iris, roseraie, serre aux papillons, petit train… sont autant de lieux qui se renouvellent tout au long de l’année.</a>')
 				
@@ -120,11 +120,11 @@
 				var charlemagne = L.marker([47.89468491301082, 1.939898294820921]).addTo(macarte);
 				charlemagne.bindPopup('<a href="https://www.orleans-metropole.fr/sport/etablissements-et-lieux-de-pratique/la-base-de-loisirs-de-lile-charlemagne" target="_blank"><h2>La base de loisirs de l\'Ile Charlemagne </h2><br><img src="assets/images/charlemagne.jpg" alt="image lieu"><br>Cette aire de loisirs de 70ha est organisée autour d\'un plan d\'eau en bord de Loire. Son accès est libre et gratuit.<br>C\'est un espace privilégié pour se détendre, faire du vélo, du jogging, pratiquer bon nombre d\'activités nautiques. Le site comprend une vaste plaine de jeux pour les enfants et de nombreux terrains d\'activité spécialisés : beach volley, basket, handball, minifootball, baseball, volley ball, ping pong, pétanque, paintball (3 terrains), accrobranche (un parc de 8 parcours) et aqua-parc. La ligue du Centre de triathlon propose de l\'initiation gratuite (06 08 02 89 50).<br>Sur le plan d\'eau, initiation à la planche à voile, au dériveur, au catamaran ou au canoë kayak, dans le cadre de clubs. On peut également louer des canoës auprès du CKCO(02 38 66 14 80) ou apporter sa propre planche à voile. De mai à septembre, la baignade est autorisée dans une zone surveillée. A proximité, une aire particulièrement ventée permet de pratiquer le cerf-volant.<br>Enfin, toute l\'année, de nombreux clubs y organisent des rencontres et animations sportives.<br></a>')
 			}
-            window.onload = function(){
+			window.onload = function(){
 		// Fonction d'initialisation qui s'exécute lorsque le DOM est chargé
 		initMap(); 
-            };
-        </script>
+			};
+		</script>
 	<script src="https://kit.fontawesome.com/661d52523c.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

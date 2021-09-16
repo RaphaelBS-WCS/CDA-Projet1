@@ -1,11 +1,8 @@
-body {
-	background-color: $primary;
-}
-
 
 header {
 
 	top: -85px;
+	background-color: $primary;
 	
 	img {
 		width: 100%;
@@ -27,14 +24,18 @@ header {
 
 #tourisme {
 
+	position: relative;
+	z-index: 3000 !important;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	margin-top: -525px;
-	margin-bottom: 150px;
-
-	color: black;
+	padding-bottom: 150px;
+	background-color: $primary;
+	p {
+		color: black;
+	}
 	
 	#map {
 
