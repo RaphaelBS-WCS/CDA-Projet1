@@ -1,5 +1,3 @@
-console.log('gulp is fine')
-
 (function ($) {
     $(function() {
       

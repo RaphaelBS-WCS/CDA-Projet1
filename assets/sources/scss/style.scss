@@ -3,7 +3,6 @@
 @import "_home.scss";
 @import "_tourisme.scss";
 
-
 body {
 	background-color: #ffffff;
 }
@@ -85,15 +84,14 @@ footer {
 		li {
 			padding: 20px;
 			list-style-type: none;
+			color: $white;
 			.fab {
 
 				&:hover {
-					color: $white;
+					color: $primary;
 				}
 			}
 		}
 	}
-
-	color: $primary;
-
+	color: $dark;
 }
