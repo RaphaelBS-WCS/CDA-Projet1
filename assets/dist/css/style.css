@@ -11,13 +11,11 @@
     top: -85px;
 }
 
-.histoire-banner h1 {
+.histoire-banner h2 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-weight: bold;
-    letter-spacing: 10px;
     color: #ffffff;
     background-color: #b5a78077;
 }
@@ -28,6 +26,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-style: "IBM Plex Sans", sans-serif;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-size: 24px;
 }
 
 .navbar {
