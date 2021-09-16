@@ -1,7 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&family=Fraunces:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Sans:wght@400;700&family=Inter:wght@500;600;800&display=swap");
 /* Fix IE Only */
+.histoire-banner {
+    background-image: url("/assets/images/orleans-bg.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+    position: relative;
+    top: -85px;
+}
+
+.histoire-banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #ffffff;
+    background-color: #b5a78077;
+}
+
 body {
-    background-color: black;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-style: "IBM Plex Sans", sans-serif;
 }
 
 .navbar {
@@ -22,10 +48,18 @@ body {
 
 .navbar-brand img {
     width: 100px;
+    margin-left: 3rem;
 }
 
 .nav-link {
-    font-size: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+}
+
+.nav-item {
+    padding: 0px 20px;
 }
 
 header {
