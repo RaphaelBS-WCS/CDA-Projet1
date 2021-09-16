@@ -9,7 +9,7 @@
 	<title>Orléans</title>
 </head>
 <body>
-	<nav class="navbar  navbar-expand-lg">
+	<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid ">
 		<a class="navbar-brand" href="index.php"><img src="/assets/images/Logo_Orléans_Métropole_blanc.png" alt="logo Orléans blanc"> </a>
 		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,9 +40,6 @@
         </video>
     </header>
 	<section>
-		<div class="test">
-			test
-		</div>
 	</section>
 	<footer>
 		<img src="assets/images/Logo_Orléans_Métropole_allblack.png" alt="logo Orléans Noir">

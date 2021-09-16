@@ -1,5 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&family=Fraunces:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Sans:wght@400;700&family=Inter:wght@500;600;800&display=swap");
 /* Fix IE Only */
+.histoire-banner {
+    background-image: url("/assets/images/orleans-bg.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+    position: relative;
+    top: -85px;
+}
+
+.histoire-banner h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    background-color: #b5a78077;
+}
+
 body {
     background-color: #b5a780;
 }
@@ -60,6 +80,20 @@ header #tourisme_logo {
     width: 100%;
 }
 
+body {
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-style: "IBM Plex Sans", sans-serif;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-size: 24px;
+}
+
 .navbar {
     position: relative;
     z-index: 1;
@@ -78,10 +112,22 @@ header #tourisme_logo {
 
 .navbar-brand img {
     width: 100px;
+    margin-left: 3rem;
 }
 
 .nav-link {
-    font-size: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+}
+
+.nav-item {
+    padding: 0px 20px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("/assets/images/menu.svg");
 }
 
 header {
@@ -98,7 +144,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     box-shadow: 0px -9px 5px 1px rgba(0, 0, 0, 0.31);
-    color: #b5a780;
+    color: #000000;
 }
 
 @media screen and (max-width: 992px) {
