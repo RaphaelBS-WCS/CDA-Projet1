@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&family=Fraunces:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Sans:wght@400;700&family=Inter:wght@500;600;800&display=swap");
 /* Fix IE Only */
+body {
+    background-color: #b5a780;
+}
+
 header {
-    top: -83px;
+    top: -85px;
 }
 
 header img {
@@ -11,30 +15,49 @@ header img {
 header #tourisme_image {
     position: relative;
     z-index: 0;
+    box-shadow: 0px 9px 5px 1px rgba(0, 0, 0, 0.31);
 }
 
 header #tourisme_logo {
     position: relative;
     z-index: 1;
-    top: -420px;
+    top: -380px;
     width: 470px;
 }
 
 #tourisme {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    margin-top: -416px;
+    align-items: center;
+    margin-top: -525px;
     margin-bottom: 150px;
+    color: black;
 }
 
 #tourisme #map {
-    height: 500px;
-    width: 50%;
+    box-shadow: 9px 9px 5px 1px rgba(0, 0, 0, 0.31);
+    height: 700px;
+    width: 80%;
 }
 
-body {
-    background-color: black;
+#tourisme #map .leaflet-popup-tip-container {
+    overflow: auto !important;
+}
+
+#tourisme #map .leaflet-popup a {
+    text-decoration: none;
+    color: black;
+}
+
+#tourisme #map .leaflet-popup a h2 {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 0;
+}
+
+#tourisme #map .leaflet-popup img {
+    width: 100%;
 }
 
 .navbar {
@@ -68,13 +91,14 @@ header {
 }
 
 footer {
-    background-color: #b5a780;
+    background-color: #000000;
     height: 300px;
     font-size: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: #000000;
+    box-shadow: 0px -9px 5px 1px rgba(0, 0, 0, 0.31);
+    color: #b5a780;
 }
 
 @media screen and (max-width: 992px) {

@@ -1,5 +1,12 @@
+body {
+	background-color: $primary;
+}
+
+
 header {
-	top: -83px;
+
+	top: -85px;
+	
 	img {
 		width: 100%;
 	}
@@ -7,12 +14,13 @@ header {
 	#tourisme_image {
 		position: relative;
 		z-index: 0;
+		box-shadow: 0px 9px 5px 1px rgba(0,0,0,0.31);
 	}
 
 	#tourisme_logo {
 		position: relative;
 		z-index: 1;
-		top: -420px;
+		top: -380px;
 		width: 470px;
 	}
 }
@@ -20,13 +28,38 @@ header {
 #tourisme {
 
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	align-items:flex-start;
-	margin-top: -416px;
+	align-items: center;
+	margin-top: -525px;
 	margin-bottom: 150px;
 
+	color: black;
+	
 	#map {
-		height: 500px;
-		width: 50%;
+
+		box-shadow: 9px 9px 5px 1px rgba(0,0,0,0.31);
+		height: 700px;
+		width: 80%;
+	
+		.leaflet-popup-tip-container {
+			overflow: auto !important;
+		}
+		.leaflet-popup {
+
+			a {
+				text-decoration: none;
+				color: black;
+				h2 {
+					text-align: center;
+					font-size: 27px;
+					margin-bottom: 0;
+				}
+			}
+
+			img {
+				width: 100%;
+			}
+		}
 	}
 }
