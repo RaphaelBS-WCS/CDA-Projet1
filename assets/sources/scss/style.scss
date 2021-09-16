@@ -42,6 +42,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px 20px;
 }
 
+.navbar-toggler-icon {
+    background-image: url("/assets/images/menu.svg");
+}
 header {
     position: relative;
     top: -216px;
