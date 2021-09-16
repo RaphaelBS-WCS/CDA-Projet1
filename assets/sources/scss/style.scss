@@ -1,10 +1,6 @@
 @import "_variables.scss";
 @import "_home.scss";
 
-body {
-	background-color: black;
-}
-
 .navbar {
 		
 	position: relative;
@@ -66,10 +62,5 @@ footer {
 			}
 		}
 	}
-
-
 	color: $dark;
-
-
-
 }

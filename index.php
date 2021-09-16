@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link href="/assets/dist/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<title>Orléans</title>
 </head>
 <body>
@@ -39,152 +40,136 @@
             Sorry, your browser doesn't support embedded videos.
         </video>
     </header>
+	<section id="index">
+		<div class="history pb-3">
+			<div class="align-items-center d-flex flex-column my-5">
+				<h2 class="text-start col-10 col-lg-8 text-nowrap">ORLÉANS: UNE VILLE HISTORIQUE</h2>
+				<hr class="col-10 col-lg-8">
+			</div>
+			<div class="d-flex justify-content-center align-items-center my-3 flex-column flex-lg-row">
+				<img src="/assets/images/JDarc.jpg" class="col-10 col-lg-4 me-lg-4 mb-4">
+				<div class="col-10 col-lg-4 d-flex flex-column justify-content-center">
+					<h3 class="pb-4 my-5">45000 ans d'histoire</h3>
+					<p>Dire qu'Orléans tient une grande place dans l'histoire de France est un pléonasme.
+						L'histoire de France est liée à Orléans et ce depuis l'Antiquité.
+
+					Le tournant de l'histoire d'Orléans est également un des tournants de l'histoire de France. En pleine 
+					Guerre de Cent Ans, Jeanne d'Arc parvient à vaincre les Anglais et à libérer la ville le 8 mai 1429. Elle 
+					devient dès lors l'héroïne de la ville, une admiration qui perdure encore aujourd'hui avec la célébration 
+					tous les ans des fêtes johanniques. Après la guerre, la ville retrouve vite sa prospérité notamment grâce 
+					à Louis XI qui développe l'agriculture de l'Orléanais. A la Renaissance, Orléans continue de faire partie 
+					intégrante de l'histoire de France avec le passage de riches châtelains, de Jean Calvin et du roi lui-même. 
+					C'est dans une chambre de l'hôtel Groslot que François II meurt en 1560. Plusieurs fois reconstruite, 
+					la dernière version de la cathédrale d'Orléans verra sa première pierre posée par Henri IV lui-même 
+					faisant ainsi de cet édifice un des plus beaux de France puisque les travaux s'étalent sur un siècle 
+					offrant un mélange de style fin Renaissance-Louis XIV. C'est à l'époque du Roi Soleil que le Dûché 
+					d'Orléans est le plus important de France, s'étalant d'Arpajon à Blois.
+					</p>
+				</div>
+			</div>
+			<div class="d-flex justify-content-center content-button-history">
+				<a href="#" class="button-history d-flex align-items-center justify-content-center col-10 col-lg-3" role="button">SAVOIR PLUS SUR ORLÉANS</a>
+			</div>
+		</div>
+		<div class="pb-3 tourism my-5">
+			<div class="d-flex justify-content-center mb-4">
+				<div class="vertical">
+				</div>
+			</div>
+			<h3 class="d-flex justify-content-center">TOURISME</h3>
+			<h2 class="justify-content-center d-flex my-5"><div class="text-dark ">DÉCOUVREZ</div>&nbsp<div class="text-white">ORLÉANS</div></h2>
+			<div class="d-flex justify-content-center">
+				<p class="text-center col-10 col-lg-8 d-flex">
+				Qui dit Orléans dit Jeanne d’Arc. La renommée de la ville ne serait pas la même sans sa fameuse Pucelle d’Orléans, qui l’a délivrée le 8 mai 1429. 
+La Maison de Jeanne d’Arc lui fait honneur et une rue porte tout naturellement son nom. Et quelle rue ! Celle-ci mène tout droit à la Cathédrale Sainte-Croix, merveille de l’architecture gothique révélant à elle seule toute la richesse patrimoniale de la cité.
+Contemplez sa façade (qui s’illumine le soir ) et ses deux tours imposantes. A l’intérieur, ses superbes orgues proviennent de l’Abbaye de Saint-Benoît sur Loire. Ses cloches, elles, ont été fabriquées à la fonderie de cloches Bollée  à deux pas du centre-ville. Toujours en activité, elle abrite un musée d’intérêt.
+Trois autres musées valent une visite. Au Musée Historique et Archéologique de l’Orléanais, admirez une rare collection de statues en bronze de l’époque gallo-romaines et au Musée des Beaux-Arts, les pastels les plus admirables après ceux du Musée du Louvre. L’art contemporain n’est pas en reste à Orléans : rendez-vous au FRAC Centre, haut lieu de l’art contemporain. Surnommé “Les Turbulences”, le bâtiment qui l’abrite mérite à lui seul une visite.
+Enfin, ne manquez pas l’Hôtel Groslot, (et sa statue de Jeanne d’Arc), charmant hôtel particulier de briques rouges. 
+ 
+				</p>
+			</div>
+			<div class="d-flex justify-content-center content-button-tourism">
+				<a href="#" class="button-tourism col-10 col-lg-3 d-flex align-items-center justify-content-center" role="button">SAVOIR PLUS</a>
+			</div>
+		</div>
+
+		<div class="pb-3 photos">
+			<h2 class="justify-content-center d-flex my-5">GALLERIE DE PHOTOS</h2>
+			<div class="d-flex justify-content-center">
+				<p class="text-center col-10 col-lg-8 d-flex">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+			</div>
+
+			<div class="container masonry-galery h-100">
+				<div class="photobloc item-1 col-lg-6 mb-4">
+					<img src="/assets/images/cathedrale.jpg" alt="cathedrale">
+				</div>
+				<div class="photobloc item-2 col-lg-6 mb-4">
+					<img src="/assets/images/parcfloral.jpg" alt="parcfloral">
+				</div>
+				<div class="photobloc item-3 col-lg-6 mb-4">
+					<img src="/assets/images/frac.jpg" alt="frac">
+				</div>
+				<div class="photobloc item-4 col-lg-6 mb-4">
+					<img src="/assets/images/museebeaux-art.jpg" alt="museebeaux-art">
+				</div>
+				<div class="photobloc item-5 col-lg-6 mb-4">
+					<img src="/assets/images/combleux.jpg" alt="combleux">
+				</div>
+				<div class="photobloc item-6 col-lg-6 mb-4">
+					<img src="/assets/images/statue.jpg" alt="statue">
+				</div>	
+			</div>
 
 
-
-
-	<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {  
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}
-</style>
-<h2>Image Modal</h2>
-<p>In this example, we use CSS to create a modal (dialog box) that is hidden by default.</p>
-<p>We use JavaScript to trigger the modal and to display the current image inside the modal when it is clicked on. Also note that we use the value from the image's "alt" attribute as an image caption text inside the modal.</p>
-
-<img id="myImg" src="img_snow.jpg" alt="Snow" style="width:100%;max-width:300px">
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-</script>
-	<section id="history">
-		<h2>ORLÉANS: UNE VILLE HISTORIQUE</h2>
-		<hr>
-		<div>
-			<img src="/assets/images/JDarc.jpg" class="col-6">
-			<p class="col-6"></p>
+			<div class="d-flex justify-content-center">
+				<a href="#" class="button-photos col-10 col-lg-3 d-flex align-items-center justify-content-center" role="button">VOIR LES PHOTOS D'ORLEANS</a>
+			</div>
 		</div>
 	</section>
-	<section id="tourism">
-		<h2 class="justify-content-center d-flex">DÉCOUVREZ ORLÉANS</h2>
 
-		<button type="button" class="button-tourism" >Button</button>
-
-	</section>
-
-	<section id="photos">
-		<h2>GALLERIE DE PHOTOS</h2>
-
+	<section>
+		<div class="container">
+		
+				<div class="events-carousel my-5">
+				<h2 class="text-center text-uppercase my-5">Événements</h2>
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+					<img  src="https://www.orleans-metropole.fr/fileadmin/orleans/MEDIA/diaporama/festival_loire/2019/vendredi/IMG_1983.jpg" class="img-event d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h3>LE FESTIVAL DE LOIRE 2021</h3>
+						<p>Le Festival de Loire posera l’ancre à Orléans du 22 au 26 septembre 2021. Dans sa cale, une édition anniversaire pleine de panache.</p>
+					</div>
+					</div>
+					<div class="carousel-item">
+					<img src="/assets/images/parcfloral.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h3>SALON DES ARTS DU JARDIN</h3>
+						<p>Au printemps, le Parc Floral de La Source célèbre le jardinage et l’art de vivre au grand air..</p>
+					</div>
+					</div>
+					<div class="carousel-item">
+					<img src="https://www.orleans-metropole.fr/fileadmin/orleans/MEDIA/actualite/jazz-eveche/concert-jazz001.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h3>JAZZ À L’EVÊCHÉ </h3>
+						<p>Jazz à l’Évêché, c’est 4 jours de fête en plein cœur d’Orléans où tous les publics se retrouvent autour d’une même ferveur ! Rendez-vous du 19 au 22 juin.</p>
+					</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
 	</section>
 	<footer>
 		<img src="assets/images/Logo_Orléans_Métropole_allblack.png" alt="logo Orléans Noir">
@@ -213,5 +198,8 @@ span.onclick = function() {
 	</footer>
 	<script src="https://kit.fontawesome.com/661d52523c.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="assets/dist/js/all.js" crossorigin="anonymous"></script>
+	
 </body>
 </html>
