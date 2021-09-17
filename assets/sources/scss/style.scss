@@ -2,6 +2,7 @@
 @import "_histoire.scss";
 @import "_home.scss";
 @import "_galerie.scss";
+@import "_tourisme.scss";
 
 body {
 	background-color: #ffffff;
@@ -59,12 +60,13 @@ header {
 }
 
 footer {
-	background-color: $primary;
+	background-color: $dark;
 	height: 300px;
 	font-size: 40px;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	box-shadow: 0px -9px 5px 1px rgba(0,0,0,0.31);
 
 	@media screen and (max-width: 992px) {
 		flex-direction: column;
@@ -81,16 +83,16 @@ footer {
 		align-items: center;
 		
 		li {
+			padding: 20px;
 			list-style-type: none;
+			color: $white;
 			.fab {
 
 				&:hover {
-					color: $white;
+					color: $primary;
 				}
 			}
 		}
 	}
-
 	color: $dark;
-
 }
