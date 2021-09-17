@@ -3,14 +3,26 @@
     box-shadow: 0px 9px 5px 1px rgba(0,0,0,0.31);
 }
 
+#homeNav {
+    background-color: $dark;
+}
+
 #homeHeader {
     top: -216px;
+    @media screen and (max-width: 992px) {
+        top: 0;
+    }
+
 }
 
 #index {
     position: relative;
     top: -180px;
     z-index: 0;
+
+    @media screen and (max-width: 992px) {
+        top: 28px;
+    }
 
     p {
         font-size: small;
