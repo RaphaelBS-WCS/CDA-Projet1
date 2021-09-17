@@ -262,8 +262,15 @@
     margin-bottom: 100px;
 }
 
+@media screen and (max-width: 600px) {
+    .galerie h1 {
+        font-size: 24px;
+    }
+}
+
 .galerie-banner {
     background-image: url("/assets/images/centreville-header.jpg");
+    width: 100%;
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -292,6 +299,12 @@
     position: absolute;
     top: 250px;
     left: 40%;
+}
+
+@media screen and (max-width: 600px) {
+    .contain-banner {
+        max-width: 100%;
+    }
 }
 
 #slideshow h2 {
@@ -335,15 +348,17 @@
 
 @media screen and (max-width: 1200px) {
     .item-nav > img {
-        width: 100%;
-        height: 70vh;
+        width: 95%;
+        height: 30vh;
+        object-fit: cover;
     }
 }
 
 @media screen and (max-width: 600px) {
     .item-nav > img {
-        width: 100%;
+        width: 95%;
         height: 30vh;
+        object-fit: cover;
     }
 }
 
