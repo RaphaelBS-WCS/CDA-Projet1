@@ -18,6 +18,7 @@
     transform: translate(-50%, -50%);
     color: #ffffff;
     background-color: #b5a78077;
+    background-color: #b5a78077;
 }
 
 .video {
@@ -200,6 +201,7 @@
 
 #index .events-carousel h2 {
     color: #b5a780;
+    font-size: medium;
 }
 
 #index .events-carousel .carousel-item {
@@ -220,6 +222,16 @@
     #index .events-carousel .carousel-item img {
         min-height: 280px !important;
     }
+}
+
+#index .events-carousel .carousel-item .carousel-caption {
+    position: absolute;
+    width: 75%;
+    height: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    background-color: #b5a78077;
 }
 
 .galerie {
@@ -312,7 +324,7 @@
 }
 
 #tourismHeader {
-    top: -85px;
+    top: 114px;
     background-color: #b5a780;
     height: 600px;
 }
@@ -338,8 +350,8 @@
 
 #tourismHeader #tourisme_logo {
     position: relative;
-    z-index: 1;
-    top: -380px;
+    z-index: 2;
+    top: -476px;
     width: 470px;
 }
 
@@ -363,7 +375,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -235px;
+    margin-top: 0;
     padding-top: 8px;
     padding-bottom: 150px;
     background-color: #b5a780;
@@ -476,7 +488,7 @@ h1, h2 {
     color: #ffffff;
 }
 
-.navbar a:hover {
+.navbar a:hover, .navbar a.active {
     color: #b5a780;
 }
 

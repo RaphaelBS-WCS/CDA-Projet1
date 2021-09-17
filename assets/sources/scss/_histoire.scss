@@ -8,15 +8,13 @@
     position: relative;
     top: -85px;
 
-
     h2 {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-       color: $white;
+       color: $white;background-color: #b5a78077;
         background-color: #b5a78077;
 
     }
-
 }

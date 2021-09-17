@@ -22,13 +22,13 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 			<li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
+				<a class="nav-link" aria-current="page" href="index.php">Accueil</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="histoire.php">Histoire</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="tourisme.php">Tourisme</a>
+				<a class="nav-link active" href="tourisme.php">Tourisme</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="galerie.php">Galerie</a>
@@ -39,7 +39,9 @@
 	</nav>
 	<header id="tourismHeader" class="d-flex justify-content-center align-items-center flex-column">
 		<img id="tourisme_image"src="assets/images/tourisme-orleans.jpg" alt="Orléans Tourisme">
-		<img id="tourisme_logo" src="assets/images/logo_tourisme.png" alt="Logo Orléans Tourisme">
+		<div id="tourismeLogoBg">
+			<img id="tourisme_logo" src="assets/images/logo_tourisme.png" alt="Logo Orléans Tourisme">
+		</div>
 	</header>
 	<section id="tourisme">
 		<p id=tutoMap>Utilisez la carte et cliquez sur les icônes sur la carte pour découvrir les lieux à visiter à Orléans!</p>
