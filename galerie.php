@@ -95,7 +95,7 @@
 					<p class="d-blockmw-100 mx-auto text-center border border-3 rounded text-secondary"> Avec pas moins de 700 œuvres italiennes, flamandes, hollandaises, françaises exposées en permanence, le Musée des Beaux-Arts possède l'une des plus riches collections publiques de France.</p>
             </div>
             <div class="item container-fluid mx-auto">
-					<h2 class="text-center mb-4">Le place de Matroi</h2>
+					<h2 class="text-center mb-4">Centre ville - Le place de Matroi</h2>
                 	<img src="/assets/images/placematroi.jpg" class="img-fluid mx-auto " alt="orleans place matroi" draggable="false">
 					<p class="d-block mw-100 mx-auto text-center border border-3 rounded text-secondary"> La place du Martroi est la principale place du centre-ville d'Orléans située dans le département du Loiret en région Centre-Val de Loire. Sur la place se dresse la statue équestre de Jeanne d'Arc.</p>
     
