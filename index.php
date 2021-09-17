@@ -119,7 +119,7 @@
 
 		<div class="container">
 			<div class="events-carousel my-5">
-				<h2 class="text-center text-uppercase my-5">Événements</h2>
+				<h2 class="text-center text-uppercase my-5 events-carousel-h2">Événements</h2>
 				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 					<div class="carousel-indicators">
 						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
