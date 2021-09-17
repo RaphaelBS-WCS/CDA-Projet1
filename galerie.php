@@ -153,7 +153,7 @@
     </section>
     <!--SECTION GALERY PHOTOS ends here-->
     <footer>
-        <img src="assets/images/Logo_Orléans_Métropole_allblack.png" alt="logo Orléans Noir">
+        <img src="assets/images/Logo_Orléans_Métropole_blanc.png" alt="logo Orléans Blanc">
         <ul>
             <li>
                 <a href="https://fr-fr.facebook.com/OrleansMetropole/" class="me-4 text-reset">
