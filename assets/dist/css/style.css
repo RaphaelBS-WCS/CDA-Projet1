@@ -218,6 +218,16 @@
     }
 }
 
+#index .events-carousel .carousel-item .carousel-caption {
+    position: absolute;
+    width: 75%;
+    height: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    background-color: #b5a78077;
+}
+
 header {
     top: -85px;
     background-color: #b5a780;
@@ -307,7 +317,7 @@ h1, h2 {
     color: #ffffff;
 }
 
-.navbar a:hover {
+.navbar a:hover, .navbar a.active {
     color: #b5a780;
 }
 

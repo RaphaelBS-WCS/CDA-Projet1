@@ -175,7 +175,21 @@
                     min-height: 280px !important;
                 }
             }
+            .carousel-caption {
+                position: absolute;
+                width: 75%;
+                height: 20%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: $white;
+                background-color: #b5a78077;
+            }
         }
     }
 }
+
+
+
+
+
 
