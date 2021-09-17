@@ -47,6 +47,7 @@
                 </div>
             </div>
         </nav>
+        
 	<!--Image header page Galerie -->
 	<div class="container-fluid p-5 galerie-banner position-relative">
 		<div class="contain-banner pt-3 pb-3 px-2 position-absolute top-50 start-50 translate-middle d-block">
