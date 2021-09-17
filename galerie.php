@@ -153,25 +153,25 @@
     </section>
     <!--SECTION GALERY PHOTOS ends here-->
     <footer>
-        <img src="assets/images/Logo_Orléans_Métropole_allblack.png" alt="logo Orléans Noir">
+        <img src="assets/images/Logo_Orléans_Métropole_blanc.png" alt="logo Orléans Blanc">
         <ul>
             <li>
-                <a href="https://fr-fr.facebook.com/OrleansMetropole/" class="me-4 text-reset">
+                <a href="https://fr-fr.facebook.com/OrleansMetropole/" class="text-reset">
                     <i class="fab fa-facebook-f"></i>
                 </a>
             </li>
             <li>
-                <a href="https://twitter.com/orleansmetropol?lang=fr" class="me-4 text-reset">
+                <a href="https://twitter.com/orleansmetropol?lang=fr" class="text-reset">
                     <i class="fab fa-twitter"></i>
                 </a>
             </li>
             <li>
-                <a href="https://www.instagram.com/orleansmetropole/?hl=fr" class="me-4 text-reset">
+                <a href="https://www.instagram.com/orleansmetropole/?hl=fr" class="text-reset">
                     <i class="fab fa-instagram"></i>
                 </a>
             </li>
             <li>
-                <a href="https://fr.wikipedia.org/wiki/Orl%C3%A9ans" class="me-4 text-reset">
+                <a href="https://fr.wikipedia.org/wiki/Orl%C3%A9ans" class="text-reset">
                     <i class="fab fa-wikipedia-w"></i>
                 </a>
             </li>

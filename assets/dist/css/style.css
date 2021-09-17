@@ -199,9 +199,9 @@
     position: relative;
 }
 
-#index .events-carousel h2 {
+#index .events-carousel .events-carousel-h2 {
     color: #b5a780;
-    font-size: 48px;
+    font-size: medium;
 }
 
 #index .events-carousel .carousel-item {
