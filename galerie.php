@@ -115,7 +115,7 @@
 
         </div>
         <!--slide photos by slick starts here -->
-        <div class="slider-nav mt-5">
+        <div class="slider-nav">
             <div class="item-nav">
 				<img src="/assets/images/catherale.jpg" class="container-fluid mx-auto" alt="orleans republique">
             </div>
@@ -222,14 +222,14 @@
 					}
 					},
 					{
-					breakpoint: 600,
+					breakpoint: 800,
 					settings: {
 						slidesToShow: 2,
 						slidesToScroll: 2
 					}
 					},
 					{
-					breakpoint: 480,
+					breakpoint: 600,
 					settings: {
 						slidesToShow: 1,
 						slidesToScroll: 1
