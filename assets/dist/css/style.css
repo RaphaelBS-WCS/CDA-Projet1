@@ -23,6 +23,7 @@
 header {
     top: -85px;
     background-color: #b5a780;
+    height: 600px;
 }
 
 header img {
@@ -35,11 +36,33 @@ header #tourisme_image {
     box-shadow: 0px 9px 5px 1px rgba(0, 0, 0, 0.31);
 }
 
+@media screen and (max-width: 992px) {
+    header #tourisme_image {
+        top: -206px !important;
+        height: 100%;
+        width: auto;
+        background-repeat: no-repeat;
+    }
+}
+
 header #tourisme_logo {
     position: relative;
     z-index: 1;
     top: -380px;
     width: 470px;
+}
+
+@media screen and (max-width: 992px) {
+    header #tourisme_logo {
+        top: -415px !important;
+        width: 120px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        top: -85px !important;
+    }
 }
 
 #tourisme {
@@ -50,16 +73,29 @@ header #tourisme_logo {
     justify-content: center;
     align-items: center;
     margin-top: -525px;
+    padding-top: 8px;
     padding-bottom: 150px;
     background-color: #b5a780;
 }
 
+@media screen and (max-width: 992px) {
+    #tourisme {
+        margin-top: -493px;
+        padding-bottom: 20px;
+    }
+
+    #tourisme #tutoMap {
+        display: none;
+    }
+}
+
 #tourisme p {
     color: black;
+    padding: 8px;
 }
 
 #tourisme #map {
-    box-shadow: 9px 9px 5px 1px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.35);
     height: 700px;
     width: 80%;
 }
@@ -81,6 +117,41 @@ header #tourisme_logo {
 
 #tourisme #map .leaflet-popup img {
     width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    #tourisme #map {
+        display: none;
+    }
+}
+
+#tourisme #cards {
+    display: none;
+    margin-top: 20px;
+}
+
+#tourisme #cards .card {
+    margin-bottom: 20px;
+}
+
+#tourisme #cards .card-title {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#tourisme #cards a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    #tourisme #cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 body {
@@ -146,7 +217,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0px -9px 5px 1px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px -5px 3px 2px rgba(0, 0, 0, 0.35);
     color: #b5a780;
 }
 
