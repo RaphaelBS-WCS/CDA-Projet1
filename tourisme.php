@@ -12,7 +12,7 @@
    	<link rel="icon" href="assets/images/Logo_Orléans_Métropole_blanc.png" />
 	<title>Orléans - Tourisme</title>
 </head>
-<body>
+<body id="tourismeBody">
 	<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid ">
 		<a class="navbar-brand" href="index.php"><img src="/assets/images/Logo_Orléans_Métropole_blanc.png" alt="logo Orléans blanc"> </a>

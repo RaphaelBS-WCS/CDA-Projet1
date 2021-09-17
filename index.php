@@ -10,7 +10,7 @@
 	<title>Orléans</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg">
+	<nav class="navbar navbar-expand-lg" id="homeNav">
 		<div class="container-fluid ">
 		<a class="navbar-brand" href="index.php"><img src="/assets/images/Logo_Orléans_Métropole_blanc.png" alt="logo Orléans blanc"> </a>
 		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -149,7 +149,6 @@
 							</div>
 						</div>
 					</div>
-				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Previous</span>
