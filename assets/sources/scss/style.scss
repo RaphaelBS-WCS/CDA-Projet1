@@ -84,11 +84,10 @@ footer {
 		align-items: center;
 		
 		li {
-			padding: 5px;
+			padding: 20px;
 			list-style-type: none;
 			color: $white;
 			.fab {
-
 				&:hover {
 					color: $primary;
 				}
