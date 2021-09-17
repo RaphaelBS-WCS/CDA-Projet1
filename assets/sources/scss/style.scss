@@ -19,7 +19,6 @@ h1, h2 {
 }
 
 .navbar {
-		
 	position: relative;
 	z-index: 1;
 	background-color: #00000067;
@@ -28,7 +27,7 @@ h1, h2 {
 		text-decoration: none;
 		color: $white;
 	}
-	a:hover {
+	a:hover, a.active {
 		color: $primary;
 	}
 }
