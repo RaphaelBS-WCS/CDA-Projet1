@@ -42,14 +42,14 @@
     </header>
 	<section id="index">
 		<div class="history pb-3">
-			<div class="align-items-center d-flex flex-column my-5">
-				<h2 class="text-start col-10 col-lg-8 text-nowrap">ORLÉANS: UNE VILLE HISTORIQUE</h2>
+			<div class="align-items-center d-flex flex-column my-lg-4">
+				<h2 class="text-lg-start text-center col-10 col-lg-8">UNE VILLE HISTORIQUE</h2>
 				<hr class="col-10 col-lg-8">
 			</div>
 			<div class="d-flex justify-content-center align-items-center my-3 flex-column flex-lg-row">
 				<img src="/assets/images/JDarc.jpg" class="col-10 col-lg-4 me-lg-4 mb-4">
 				<div class="col-10 col-lg-4 d-flex flex-column justify-content-center">
-					<h3 class="pb-4 my-5">45000 ans d'histoire</h3>
+					<h3>45000&nbspans&nbspd'histoire</h3>
 					<p>Dire qu'Orléans tient une grande place dans l'histoire de France est un pléonasme.
 						L'histoire de France est liée à Orléans et ce depuis l'Antiquité.
 
@@ -77,15 +77,10 @@
 				</div>
 			</div>
 			<h3 class="d-flex justify-content-center">TOURISME</h3>
-			<h2 class="justify-content-center d-flex my-5"><div class="text-dark ">DÉCOUVREZ</div>&nbsp<div class="text-white">ORLÉANS</div></h2>
+			<h2 class="justify-content-center d-flex my-5"><div class="text-dark">DÉCOUVREZ</div>&nbsp<div class="text-white">ORLÉANS</div></h2>
 			<div class="d-flex justify-content-center">
 				<p class="text-center col-10 col-lg-8 d-flex">
-				Qui dit Orléans dit Jeanne d’Arc. La renommée de la ville ne serait pas la même sans sa fameuse Pucelle d’Orléans, qui l’a délivrée le 8 mai 1429. 
-La Maison de Jeanne d’Arc lui fait honneur et une rue porte tout naturellement son nom. Et quelle rue ! Celle-ci mène tout droit à la Cathédrale Sainte-Croix, merveille de l’architecture gothique révélant à elle seule toute la richesse patrimoniale de la cité.
-Contemplez sa façade (qui s’illumine le soir ) et ses deux tours imposantes. A l’intérieur, ses superbes orgues proviennent de l’Abbaye de Saint-Benoît sur Loire. Ses cloches, elles, ont été fabriquées à la fonderie de cloches Bollée  à deux pas du centre-ville. Toujours en activité, elle abrite un musée d’intérêt.
-Trois autres musées valent une visite. Au Musée Historique et Archéologique de l’Orléanais, admirez une rare collection de statues en bronze de l’époque gallo-romaines et au Musée des Beaux-Arts, les pastels les plus admirables après ceux du Musée du Louvre. L’art contemporain n’est pas en reste à Orléans : rendez-vous au FRAC Centre, haut lieu de l’art contemporain. Surnommé “Les Turbulences”, le bâtiment qui l’abrite mérite à lui seul une visite.
-Enfin, ne manquez pas l’Hôtel Groslot, (et sa statue de Jeanne d’Arc), charmant hôtel particulier de briques rouges. 
- 
+				Au cœur du Val de Loire, Orléans est idéalement située sur la Loire. La Cité johannique (en référence à Jeanne d'Arc) possède de multiples atouts historiques et patrimoniaux qui en font toute sa renommée. Découvrez le temps d'un weekend son territoire, son fleuve, son histoire, ses monuments et lieux remarquables, musées, parcs et jardins...
 				</p>
 			</div>
 			<div class="d-flex justify-content-center content-button-tourism">
@@ -98,7 +93,6 @@ Enfin, ne manquez pas l’Hôtel Groslot, (et sa statue de Jeanne d’Arc), char
 			<div class="d-flex justify-content-center">
 				<p class="text-center col-10 col-lg-8 d-flex">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 			</div>
-
 			<div class="container masonry-galery h-100">
 				<div class="photobloc item-1 col-lg-6 mb-4">
 					<img src="/assets/images/cathedrale.jpg" alt="cathedrale">
@@ -119,78 +113,73 @@ Enfin, ne manquez pas l’Hôtel Groslot, (et sa statue de Jeanne d’Arc), char
 					<img src="/assets/images/statue.jpg" alt="statue">
 				</div>	
 			</div>
-
-
 			<div class="d-flex justify-content-center">
 				<a href="#" class="button-photos col-10 col-lg-3 d-flex align-items-center justify-content-center" role="button">VOIR LES PHOTOS D'ORLEANS</a>
 			</div>
 		</div>
-	</section>
 
-	<section>
 		<div class="container">
-		
 			<div class="events-carousel my-5">
 				<h2 class="text-center text-uppercase my-5">Événements</h2>
 				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-				<div class="carousel-indicators">
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-				</div>
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-					<img  src="https://www.orleans-metropole.fr/fileadmin/orleans/MEDIA/diaporama/festival_loire/2019/vendredi/IMG_1983.jpg" class="img-event d-block w-100" alt="...">
-					<div class="carousel-caption d-none d-md-block">
-						<h3>LE FESTIVAL DE LOIRE 2021</h3>
-						<p>Le Festival de Loire posera l’ancre à Orléans du 22 au 26 septembre 2021. Dans sa cale, une édition anniversaire pleine de panache.</p>
+						<img  src="https://www.orleans-metropole.fr/fileadmin/orleans/MEDIA/diaporama/festival_loire/2019/vendredi/IMG_1983.jpg" class="img-event d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h3>LE FESTIVAL DE LOIRE 2021</h3>
+							<p>Le Festival de Loire posera l’ancre à Orléans du 22 au 26 septembre 2021. Dans sa cale, une édition anniversaire pleine de panache.</p>
 					</div>
-					</div>
-					<div class="carousel-item">
+				</div>
+				<div class="carousel-item">
 					<img src="/assets/images/parcfloral.jpg" class="d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
 						<h3>SALON DES ARTS DU JARDIN</h3>
 						<p>Au printemps, le Parc Floral de La Source célèbre le jardinage et l’art de vivre au grand air..</p>
 					</div>
-					</div>
-					<div class="carousel-item">
+				</div>
+				<div class="carousel-item">
 					<img src="https://www.orleans-metropole.fr/fileadmin/orleans/MEDIA/actualite/jazz-eveche/concert-jazz001.jpg" class="d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
 						<h3>JAZZ À L’EVÊCHÉ </h3>
 						<p>Jazz à l’Évêché, c’est 4 jours de fête en plein cœur d’Orléans où tous les publics se retrouvent autour d’une même ferveur ! Rendez-vous du 19 au 22 juin.</p>
 					</div>
-					</div>
 				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
-				</button>
 			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
 	</section>
 	<footer>
 		<img src="assets/images/Logo_Orléans_Métropole_blanc.png" alt="logo Orléans Blanc">
 		<ul>
 			<li>
-				<a href="https://fr-fr.facebook.com/OrleansMetropole/" class="me-4 text-reset">
+				<a href="https://fr-fr.facebook.com/OrleansMetropole/" class="text-reset">
 					<i class="fab fa-facebook-f"></i>
 				</a>
 			</li>
 			<li>
-				<a href="https://twitter.com/orleansmetropol?lang=fr" class="me-4 text-reset">
+				<a href="https://twitter.com/orleansmetropol?lang=fr" class="text-reset">
 					<i class="fab fa-twitter"></i>
 				</a>
 			</li>
 			<li>
-				<a href="https://www.instagram.com/orleansmetropole/?hl=fr" class="me-4 text-reset">
+				<a href="https://www.instagram.com/orleansmetropole/?hl=fr" class="text-reset">
 					<i class="fab fa-instagram"></i>
 				</a>
 			</li>
 			<li>
-				<a href="https://fr.wikipedia.org/wiki/Orl%C3%A9ans" class="me-4 text-reset">
+				<a href="https://fr.wikipedia.org/wiki/Orl%C3%A9ans" class="text-reset">
 					<i class="fab fa-wikipedia-w"></i>
 				</a>
 			</li>
