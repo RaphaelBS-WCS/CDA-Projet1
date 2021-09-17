@@ -24,6 +24,10 @@
     box-shadow: 0px 9px 5px 1px rgba(0, 0, 0, 0.31);
 }
 
+#homeHeader {
+    top: -216px;
+}
+
 #index {
     position: relative;
     top: -180px;
@@ -228,26 +232,49 @@
     background-color: #b5a78077;
 }
 
-header {
+#tourismHeader {
     top: -85px;
     background-color: #b5a780;
+    height: 600px;
 }
 
-header img {
+#tourismHeader img {
     width: 100%;
 }
 
-header #tourisme_image {
+#tourismHeader #tourisme_image {
     position: relative;
     z-index: 0;
     box-shadow: 0px 9px 5px 1px rgba(0, 0, 0, 0.31);
 }
 
-header #tourisme_logo {
+@media screen and (max-width: 992px) {
+    #tourismHeader #tourisme_image {
+        top: -206px !important;
+        height: 100%;
+        width: auto;
+        background-repeat: no-repeat;
+    }
+}
+
+#tourismHeader #tourisme_logo {
     position: relative;
     z-index: 1;
     top: -380px;
     width: 470px;
+}
+
+@media screen and (max-width: 992px) {
+    #tourismHeader #tourisme_logo {
+        top: -415px !important;
+        width: 120px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #tourismHeader {
+        top: -85px !important;
+    }
 }
 
 #tourisme {
@@ -257,19 +284,37 @@ header #tourisme_logo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -525px;
+    margin-top: -235px;
+    padding-top: 8px;
     padding-bottom: 150px;
     background-color: #b5a780;
 }
 
+@media screen and (max-width: 992px) {
+    #tourisme {
+        margin-top: -493px;
+        padding-bottom: 20px;
+    }
+
+    #tourisme #tutoMap {
+        display: none;
+    }
+}
+
 #tourisme p {
     color: black;
+    padding: 8px;
 }
 
 #tourisme #map {
-    box-shadow: 9px 9px 5px 1px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.35);
     height: 700px;
     width: 80%;
+}
+
+#tourisme #map .leaflet-popup-content-wrapper {
+    position: relative;
+    z-index: 9000 !important;
 }
 
 #tourisme #map .leaflet-popup-tip-container {
@@ -289,6 +334,41 @@ header #tourisme_logo {
 
 #tourisme #map .leaflet-popup img {
     width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    #tourisme #map {
+        display: none;
+    }
+}
+
+#tourisme #cards {
+    display: none;
+    margin-top: 20px;
+}
+
+#tourisme #cards .card {
+    margin-bottom: 20px;
+}
+
+#tourisme #cards .card-title {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#tourisme #cards a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    #tourisme #cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 body {
@@ -343,18 +423,19 @@ h1, h2 {
 
 header {
     position: relative;
-    top: -216px;
     z-index: 0;
 }
 
 footer {
+    position: relative;
+    z-index: 8000 !important;
     background-color: #000000;
     height: 300px;
     font-size: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0px -9px 5px 1px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px -5px 3px 2px rgba(0, 0, 0, 0.35);
     color: #000000;
 }
 

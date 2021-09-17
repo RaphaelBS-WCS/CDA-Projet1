@@ -34,7 +34,7 @@
 		  </div>
 		</div>
 	</nav>
-	<header class="d-flex justify-content-center align-items-center flex-column">
+	<header id="homeHeader" class="d-flex justify-content-center align-items-center flex-column">
         <video muted autoplay loop class="video d-flex col-12">
             <source src="Orléans_-terre-de-rencontres-et-d_émotions.webm" type="video/webm">
             Sorry, your browser doesn't support embedded videos.
