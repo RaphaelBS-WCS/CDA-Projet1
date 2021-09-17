@@ -4,6 +4,7 @@
 @import "_galerie.scss";
 @import "_tourisme.scss";
 
+
 body {
 	background-color: #ffffff;
 }
@@ -87,7 +88,6 @@ footer {
 			list-style-type: none;
 			color: $white;
 			.fab {
-
 				&:hover {
 					color: $primary;
 				}

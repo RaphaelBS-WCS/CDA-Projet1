@@ -123,7 +123,6 @@ $screen-xl-min: 1200px;
 
 }
 
-
 /* Fix IE Only */
 @mixin ie11 {
 
@@ -132,4 +131,3 @@ $screen-xl-min: 1200px;
         @content;
     }
 }
-

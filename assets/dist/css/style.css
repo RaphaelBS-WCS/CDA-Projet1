@@ -215,8 +215,17 @@
     position: relative;
 }
 
-#index .events-carousel h2 {
+#index .events-carousel .events-carousel-h2 {
     color: #b5a780;
+}
+
+@media screen and (max-width: 576px) {
+    #index .events-carousel .events-carousel-h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: medium;
+    }
 }
 
 #index .events-carousel .carousel-item {
@@ -261,6 +270,7 @@
     background-size: cover;
     padding: 30px;
     position: relative;
+    object-fit: cover;
     z-index: 0;
     top: -100px;
 }
@@ -308,6 +318,7 @@
 .item > img {
     width: 100% !important;
     height: 80vh;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 600px) {
@@ -319,6 +330,7 @@
 
 .item-nav > img {
     height: 30vh;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1200px) {

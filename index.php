@@ -119,7 +119,7 @@
 
 		<div class="container">
 			<div class="events-carousel my-5">
-				<h2 class="text-center text-uppercase my-5">Événements</h2>
+				<h2 class="text-center text-uppercase my-5 events-carousel-h2">Événements</h2>
 				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 					<div class="carousel-indicators">
 						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -144,12 +144,11 @@
 						<div class="carousel-item">
 							<img src="https://www.orleans-metropole.fr/fileadmin/orleans/MEDIA/actualite/jazz-eveche/concert-jazz001.jpg" class="d-block w-100" alt="jazz">
 							<div class="carousel-caption d-none d-md-block">
-								<h3>JAZZ À L’EVÊCHÉ </h3>
+								<h3>JAZZ À L’EVÊCHÉ</h3>
 								<p>Jazz à l’Évêché, c’est 4 jours de fête en plein cœur d’Orléans où tous les publics se retrouvent autour d’une même ferveur ! Rendez-vous du 19 au 22 juin.</p>
 							</div>
 						</div>
 					</div>
-				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Previous</span>
