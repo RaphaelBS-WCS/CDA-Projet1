@@ -58,6 +58,8 @@ header {
 }
 
 footer {
+	position: relative;
+	z-index: 8000 !important;
 	background-color: $dark;
 	height: 300px;
 	font-size: 40px;

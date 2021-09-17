@@ -37,7 +37,7 @@
 		</div>
 		</div>
 	</nav>
-	<header class="d-flex justify-content-center align-items-center flex-column">
+	<header id="tourismHeader" class="d-flex justify-content-center align-items-center flex-column">
 		<img id="tourisme_image"src="assets/images/tourisme-orleans.jpg" alt="Orléans Tourisme">
 		<img id="tourisme_logo" src="assets/images/logo_tourisme.png" alt="Logo Orléans Tourisme">
 	</header>
@@ -205,7 +205,7 @@
 				beauxarts.bindPopup('<a href="https://www.tourisme-orleansmetropole.com/activites-loisirs/musee-des-beaux-arts" target="_blank"><h2>Musée des Beaux Arts</h2><br><img src="assets/images/beaux-arts.jpg" alt="image lieu"><br>Peintures, dessins, estampes, sculptures, objets d\'art… Quelle que soit votre sensibilité artistique, vous serez forcément séduit. À l\'entresol par exemple : les collections du XIXe dressent un panorama représentatif, du néoclassicisme au romantisme et de l’académisme au réalisme. Au 1er étage, place à la peinture française du XVIIe au XVIIIe que l\'on découvre à travers les collections Richelieu, la religion, la mythologie, l\'histoire, une étonnante galerie de portraits, des bustes d’Houdon et de Pigalle.</a>')
 
 				var mobe = L.marker([47.908305, 1.9075851029260926]).addTo(macarte);
-				mobe.bindPopup('<a href="https://www.orleans-metropole.fr/culture/musees-expositions/museum-dorleans-pour-la-biodiversite-et-lenvironnement" target="_blank"><h2>Muséum d’Orléans pour la Biodiversité et l’Environnement</h2><br><img src="assets/images/MOBE.jpg" alt="image lieu"><br>Le Muséum d’Orléans pour la Biodiversité et l’Environnement (MOBE) est un musée de culture scientifique. Avec ses 5 niveaux et 1200 spécimens et échantillons exposés (sur 435000), le MOBE propose une découverte du monde qui nous entoure.</a>')
+				mobe.bindPopup('<a href="https://www.orleans-metropole.fr/culture/musees-expositions/museum-dorleans-pour-la-biodiversite-et-lenvironnement" target="_blank"><h2>MOBE</h2><br><img src="assets/images/MOBE.jpg" alt="image lieu"><br>Le Muséum d’Orléans pour la Biodiversité et l’Environnement (MOBE) est un musée de culture scientifique. Avec ses 5 niveaux et 1200 spécimens et échantillons exposés (sur 435000), le MOBE propose une découverte du monde qui nous entoure.</a>')
 
 				var frac = L.marker([47.903952797742626, 1.8969224076307478]).addTo(macarte);
 				frac.bindPopup('<a href="http://www.orleansmetropolis.com/etablissement/75-frac-centre" target="_blank"><h2>Fond Régional d\'Art Contemporain</h2><br><img src="assets/images/frac.jpg" alt="image lieu"><br>Le Fonds régional d\'art contemporain de la région Centre-Val de Loire est une collection publique d\'art contemporain. Son espace d\'exposition est situé à Orléans. Toutefois, comme pour tout FRAC, la plupart des oeuvres sont prêtées dans différentes structures de la région, de France et même du monde.Le fonds du FRAC Centre est spécialisé en art contemporain et tout particulièrement l\'architecture expérimentale, de 1950 à nos jours. 800 maquettes et 14000 dessins composent la vaste collection du FRAC.</a>')
