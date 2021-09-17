@@ -129,21 +129,21 @@
 					</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img  src="https://www.orleans-metropole.fr/fileadmin/orleans/MEDIA/diaporama/festival_loire/2019/vendredi/IMG_1983.jpg" class="img-event d-block w-100" alt="...">
+						<img  src="https://www.orleans-metropole.fr/fileadmin/orleans/MEDIA/diaporama/festival_loire/2019/vendredi/IMG_1983.jpg" class="img-event d-block w-100" alt="festival">
 						<div class="carousel-caption d-none d-md-block">
 							<h3>LE FESTIVAL DE LOIRE 2021</h3>
 							<p>Le Festival de Loire posera l’ancre à Orléans du 22 au 26 septembre 2021. Dans sa cale, une édition anniversaire pleine de panache.</p>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="/assets/images/parcfloral.jpg" class="d-block w-100" alt="...">
+					<img src="/assets/images/parcfloral.jpg" class="d-block w-100" alt="parcfloral">
 					<div class="carousel-caption d-none d-md-block">
 						<h3>SALON DES ARTS DU JARDIN</h3>
 						<p>Au printemps, le Parc Floral de La Source célèbre le jardinage et l’art de vivre au grand air..</p>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="https://www.orleans-metropole.fr/fileadmin/orleans/MEDIA/actualite/jazz-eveche/concert-jazz001.jpg" class="d-block w-100" alt="...">
+					<img src="https://www.orleans-metropole.fr/fileadmin/orleans/MEDIA/actualite/jazz-eveche/concert-jazz001.jpg" class="d-block w-100" alt="jazz">
 					<div class="carousel-caption d-none d-md-block">
 						<h3>JAZZ À L’EVÊCHÉ </h3>
 						<p>Jazz à l’Évêché, c’est 4 jours de fête en plein cœur d’Orléans où tous les publics se retrouvent autour d’une même ferveur ! Rendez-vous du 19 au 22 juin.</p>
