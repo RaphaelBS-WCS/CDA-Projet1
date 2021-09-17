@@ -166,9 +166,14 @@
     .events-carousel {
         .events-carousel-h2 {
             color: $primary;
-            font-size: medium;
+            @media screen and (max-width: 576px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: medium;
+            }
         }
-    
+
         .carousel-item {
             height: 500px !important;
             @media screen and (max-width: 992px) {
