@@ -120,20 +120,34 @@
 				<img src="/assets/images/catherale.jpg" class="container-fluid mx-auto" alt="orleans republique">
             </div>
             <div class="item-nav">
-				<img src="/assets/images/combleux.jpg" class="container-fluid mx-auto" alt="orleans combleux">
+            <img src="https://www.vivre-orleans.fr/wp-content/uploads/2018/10/place-de-Loire-Orle%CC%81ans.jpg" class="img-fluid mx-auto" alt="orleans bord de loire" draggable="false">
+				
             </div>
             <div class="item-nav">
-				<img src="/assets/images/parcfloral.jpg" class="container-fluid mx-auto" alt="orleans parc floral">
+                <img src="/assets/images/parcfloral.jpg" class="img-fluid mx-auto " alt="orleans parc floral" draggable="false"> 
+				
             </div>
             <div class="item-nav">
-				<img src="/assets/images/frac.jpg" class="container-fluid mx-auto" alt="orleans frac">
+                <img src="/assets/images/frac.jpg" class="img-fluid mx-auto " alt="orleans frac" draggable="false">
             </div>
             <div class="item-nav">
-                <img src="/assets/images/statue.jpg" class="container-fluid mx-auto" alt="orleans centre">
+            <img src="/assets/images/statue-jean.JPG" class="img-fluid mx-auto" alt="orleans statue jean d'arc" draggable="false">
             </div>
             <div class="item-nav">
-				<img src="/assets/images/museebeaux-art.jpg" class="container-fluid mx-auto"
-                    alt="orleans musée beaux arts">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Orl%C3%A9ans_mus%C3%A9e_des_Beaux-Arts_2.jpg" class="img-fluid mx-auto " alt="orleans musée beaux arts" draggable="false">
+					
+            </div>
+            <div class="item-nav">
+            <img src="/assets/images/placematroi.jpg" class="img-fluid mx-auto " alt="orleans place matroi" draggable="false">
+				
+            </div>
+            <div class="item-nav">
+            <img src="/assets/images/gare.jpg" class="img-fluid mx-auto " alt="orleans gare d'orléans" draggable="false">
+				
+            </div>
+            <div class="item-nav">
+			<img src="/assets/images/lightshow.jpg" class="img-fluid mx-auto " alt="orleans spectale lumière" draggable="false">
+					
             </div>
         </div>
     </section>
