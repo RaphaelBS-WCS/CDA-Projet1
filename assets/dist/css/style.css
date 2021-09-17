@@ -246,6 +246,7 @@
     background-size: cover;
     padding: 30px;
     position: relative;
+    object-fit: cover;
     z-index: 0;
     top: -100px;
 }
@@ -293,6 +294,7 @@
 .item > img {
     width: 100% !important;
     height: 80vh;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 600px) {
@@ -304,6 +306,7 @@
 
 .item-nav > img {
     height: 30vh;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1200px) {
