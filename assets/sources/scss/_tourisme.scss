@@ -1,7 +1,7 @@
 
 #tourismHeader {
 
-	top: -85px;
+	top: 114px;
 	background-color: $primary;
 	height: 600px;
 	
@@ -24,8 +24,8 @@
 
 	#tourisme_logo {
 		position: relative;
-		z-index: 1;
-		top: -380px;
+		z-index: 2;
+		top: -476px;
 		width: 470px;
 
 		@media screen and (max-width: 992px) {
@@ -47,7 +47,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: -235px;
+	margin-top: 0;
 	padding-top: 8px;
 	padding-bottom: 150px;
 	background-color: $primary;

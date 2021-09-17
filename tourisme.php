@@ -39,7 +39,9 @@
 	</nav>
 	<header id="tourismHeader" class="d-flex justify-content-center align-items-center flex-column">
 		<img id="tourisme_image"src="assets/images/tourisme-orleans.jpg" alt="Orléans Tourisme">
-		<img id="tourisme_logo" src="assets/images/logo_tourisme.png" alt="Logo Orléans Tourisme">
+		<div id="tourismeLogoBg">
+			<img id="tourisme_logo" src="assets/images/logo_tourisme.png" alt="Logo Orléans Tourisme">
+		</div>
 	</header>
 	<section id="tourisme">
 		<p id=tutoMap>Utilisez la carte et cliquez sur les icônes sur la carte pour découvrir les lieux à visiter à Orléans!</p>
