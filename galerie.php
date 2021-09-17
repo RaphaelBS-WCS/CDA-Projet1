@@ -49,9 +49,9 @@
         </nav>
 	<!--Image header page Galerie -->
 	<div class="container-fluid p-5 galerie-banner position-relative">
-		<div class="contain-banner pt-3 pb-3 px-2 position-absolute top-50 start-50 translate-middle d-md-block d-none">
+		<div class="contain-banner pt-3 pb-3 px-2 position-absolute top-50 start-50 translate-middle d-block">
 			<h1 class="text-light text-center">GALERIE</h1>
-			<p class="text-light fst-italic fs-3 text-center">Découvrir les plus beaux sites à Orléans en photos !</p>
+			<p class="text-light fst-italic fs-3 text-center d-md-block d-none">Découvrir les plus beaux sites à Orléans en photos !</p>
 		</div>
 	</div>
     <!--SECTION GALERY PHOTOS starts here-->
@@ -177,7 +177,6 @@
             </li>
         </ul>
     </footer>
-    
     <script src="https://kit.fontawesome.com/661d52523c.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

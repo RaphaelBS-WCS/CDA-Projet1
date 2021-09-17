@@ -2,6 +2,13 @@
     margin-bottom:100px;
 }
 
+
+@media screen and (max-width: 600px) {
+    .galerie h1 {
+        font-size:24px;
+    }
+}
+
 .galerie-banner {
     background-image: url('/assets/images/centreville-header.jpg');
     width:100%;
@@ -19,7 +26,6 @@
     }
 }
 
-
 .contain-banner {
     background: $hover;
     background: rgba($dark, 0.2); 
@@ -31,6 +37,9 @@
     position: absolute;
     top:250px;
     left:40%;
+    @media screen and (max-width: 600px) {
+        max-width: 100%;
+    }
 }
 
 #slideshow h2{
